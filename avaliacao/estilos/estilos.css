@@ -1,5 +1,10 @@
 body{
   background-color: lightblue;
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 
 h1{
@@ -16,9 +21,32 @@ p{
   font-size: 50px;
 }
 
-button{
+#botaoEnviar{
+  color: white;
+  text-align: center;
+  /* margin-left: 50%; */
+  margin-right: 50%;
+  background-color: rgb(20, 153, 194);
+}
+
+#botaoCancelar{
+  color: white;
+  text-align: center;
   margin-left: 50%;
-  background-color: yellowgreen;
+  background-color: rgb(226, 75, 15);
+}
+
+
+#cabecalho{
+  text-align: center;
+  color: white;
+  background-color: slategray;
+}
+
+#rodape{  
+  color: azure;
+  background-color: black;
+  text-align: justify;
 }
 
 /* a:link {

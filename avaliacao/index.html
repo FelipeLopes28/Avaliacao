@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+  <meta charset="UTF-8">
   <title>Avaliação AppWeb</title>
   <head>
     <link href="./estilos/estilos.css" rel="stylesheet">
   </head>
   <body>
+    <div id="cabecalho">
+      Logo URCAMP
+    </div>
     
   
 
-    <h1>Comeco</h1>
-    <button onclick= clicar()>Me click</button>
+    <div class="form">
+      <label for="campoMatricula">Matricula:</label>
+      <br>
+      <input type="number" id="campoMatricula" class="campoMatricula">
+    </div>
+    <br>
+    <div  class="form">
+      <label for="campoSenha">Senha:</label>
+      <br>
+      <input type="text" id="campoSenha" class="campoSenha">
+    </div>
+    <br>
+
+    <div id="botaoEnviar" onclick= clicar()>Enviar</div>
+    <br>
+    <div id="botaoCancelar" onclick= clicar()>Cancelar</div>
     <p>Prova</p>
 
 
@@ -21,6 +39,12 @@
         alert("Voce me clicou!!")
       }
 </script>
+<footer> <!--rodapé -->
+  <div id="rodape">Centro Universitário da Região da Campanha - URCAMP
+    <br>Desenvolvido por Felipe Lopes
+    <br> Logo Urcamp
+  </div>
+</footer>
 
   </body>
 </html>
