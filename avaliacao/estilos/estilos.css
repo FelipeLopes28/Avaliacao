@@ -1,74 +1,116 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body{
-  background-color: lightblue;
-  width: 50%;
-  max-width: 800px;
-  min-width: 480px;
+  font-size: "Roboto", sans-serif;
+}
+
+/* Cabeçalho */
+.nav-container{
+  height: 190px;
+}
+
+#imgCurso{
+  position: absolute;
+  margin-bottom: 100px;
+  left: 350px; /*esquerda*/
+  top: 70px; /*para baixo*/
+}
+
+img{
+  position: absolute;
+  top: 10%;
+  left: 50%; /*esquerda*/
+  height: 100px;
+  position: center;   */
+}
+
+.caixa{
+  margin-bottom: 100px;
+  max-width: 100px;
   margin: 0 auto;
-  margin-top: 100px;
 }
 
-h1{
-  background-color: blueviolet;
-  color: white;
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+nav .logo{
+  position: absolute;
+  width: 257px;
+  height: 190px;
+  left: 85px; /*esquerda*/
+  top: 26px;
+}
+
+/* Corpo */
+.header-container{
+ background:#FFFFFF;
+}
+.hero-content{
+  margin-bottom: 100px;
+}
+
+#bt1{
+  position: absolute;
+  top: 45%;
+  left: 30%; /*esquerda*/
+}
+#bt2{
+  position: absolute;
+  top: 40%;
+  left: 30%; /*esquerda*/
+}
+
+#bt3{
+  position: absolute;
+  top: 50%;
+  left: 80%; /*esquerda*/
+}
+#bt4{
+  position: absolute;
+  top: 30%;
+  left: 80%; /*esquerda*/
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1{
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
   text-align: center;
+
+  /* margin-bottom: 40px; */
 }
 
+header a{
+  color: #000000;
+  font-size: 12px;
+  text-decoration: none;
+
+  margin-bottom: 50px;
+  /* background: #C4C4C4; */
+  padding: 12px 48px;
+  
+}
+
+/* Rodapé */
+#imgUrcamp{
+  position: absolute;
+  left: 300px; /*esquerda*/
+  top: 550px; /*para baixo*/
+}
 p{
-  color: chartreuse;
-  background-color: tomato;
+  font-size: 14px;
+  line-height: 16px;
   text-align: center;
-  font-family: verdana;
-  font-size: 50px;
 }
-
-#botaoEnviar{
-  color: white;
-  text-align: center;
-  /* margin-left: 50%; */
-  margin-right: 50%;
-  background-color: rgb(20, 153, 194);
-}
-
-#botaoCancelar{
-  color: white;
-  text-align: center;
-  margin-left: 50%;
-  background-color: rgb(226, 75, 15);
-}
-
-
-#cabecalho{
-  text-align: center;
-  color: white;
-  background-color: slategray;
-}
-
-#rodape{  
-  color: azure;
-  background-color: black;
-  text-align: justify;
-}
-
-/* a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-} */
