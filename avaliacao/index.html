@@ -1,75 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Avaliçao</title>
-  <link rel="stylesheet" href="./estilos/estilos.css"/>
-</head>
-<body>
-  
-  <div class="nav-container">
-    <div class="caixa">
-      <nav>
-        <div class="logo">
-          <img  src="./imagens/logo-si.png" id="imgCurso"/>
-        </div>
-      </nav>
-    </div>
-
-  </div class="header-container">
-    <div class="caixa">
-      <header>
-        <div class="hero-content">
-          <h1>MATRÍCULA:</h1>
-          <input type="text" placeholder="Matricula..."/>
-        
-          <h1>SENHA:</h1>
-          <input type="text" placeholder="Senha..."/>
-          <br>
-          <div id="bt1">
-            <button name="cent" onclick="clicar()">Trocar cor de fundo</button>
-          </div>
-
-          <div id="bt2">
-            <button name="cent" onclick="clicar()">Apagar o botão cancelar</button>
-          </div>
-
-          <div id="bt3">
-            <button name="cent" onclick="clicar()">Trocar o logo do curso por outra imagem</button>
-          </div>
-          
-          <div id="bt4">
-            <button name="cent" onclick="clicar()">Trocar a cor do fundo do rodapé</button>
-          </div>
-          
-          <br>
-          <a href="#">
-            ENVIAR
-          </a>
-          <br>
-          <a href="#">
-            CANCELAR
-          </a>
-          <br>
-          <a href="#">
-            Esqueci minha senha
-          </a>
-        </div>
+  <!-- CABEÇALHO -->
+  <head> 
+    <meta charset="UTF-8"/>
+    <title>Avaliação</title>
+  </head>
+  <!-- CABEÇALHO -->
+  <!-- CORPO SITE -->
+  <body>
+    <div id="interface">
+      <header id="cabecalho">
+        <img src="./imagens/logo-si.png"/>
       </header>
-
-      <div class="rodape">
-        <p>Centro Universitário da Região da Campanha - URCAMP</p>
-        <P>Desenvolvido por: Felipe Lopes</P>
-        <br>
-        <img src="./imagens/logo-urcam.png" id="imgUrcamp"/>
-      </div>
-
+      <hgroup>
+        <h1>Matricula:</h1>
+        <br/>
+        <h1>Senha:</h1>
+      </hgroup>
     </div>
-  </div>
-
-  </div>
-
-  <script src="./main.js"></script>
-</body>
+    <!-- RODAPÉ -->
+    <div id="rodape">
+      <span>Centro Universitário da Regiçao da Campanha - <b>URCAMP</b>
+        <br/>
+        Desenvolvido por: <b>Felipe Lopes</b> &reg;
+      </span>
+      <img src="./imagens/logo-urcamp.png"/>
+    </div>
+    <!-- RODAPÉ -->
+  </body>
+  <!-- CORPO SITE -->
 </html>
