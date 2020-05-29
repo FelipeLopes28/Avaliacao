@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <!-- CABEÇALHO -->
   <head> 
     <meta charset="UTF-8"/>
     <title>Avaliação</title>
-  </head>
-  <!-- CABEÇALHO -->
-  <!-- CORPO SITE -->
-  <body>
-    <div id="interface">
-      <header id="cabecalho">
-        <img src="./imagens/logo-si.png"/>
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>   
+
+  <body>    
+              <!-- CABEÇALHO -->
+    <div class="interface">
+      <header class="cabecalho">
+        <img class="logo" src="https://scontent.fbgx1-1.fna.fbcdn.net/v/t1.0-9/35475613_1549208235208498_2127984281727795200_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=sqwR_wafDZ8AX9CvC02&_nc_ht=scontent.fbgx1-1.fna&oh=f03558463cd4d453fe6fbec4d0645f00&oe=5EF4B6E7"/>
       </header>
-      <hgroup>
-        <h1>Matricula:</h1>
+              <!-- CABEÇALHO -->
+      <section>
+              <!-- CORPO SITE -->
+        <label>MATRÍCULA:</label>
+        <input type="text" name="matricula" class="matricula">
         <br/>
-        <h1>Senha:</h1>
-      </hgroup>
+        <label>SENHA:</label>
+        <input type="password" name="senha" class="senha">
+        <br/>
+
+        <input type="button" class="trocaFundo" value="Trocar cor do fundo">
+        <input type="button" class="trocaLogoSI" value="Trocar o logo do curso">
+        <input type="button" class="trocaRodape" value="Trocar a cor do fundo do rodapé">
+        <input type="button" class="apagacancelar" value="Apagar botão CANCELAR">
+        <input type="button" class="enviar" value="ENVIAR">
+        <input type="button" class="cancelar" value="CANCELAR">
+
+      </section>
+              <!-- CORPO SITE -->
     </div>
-    <!-- RODAPÉ -->
-    <div id="rodape">
+              <!-- RODAPÉ -->
+    <footer class="rodape">
       <span>Centro Universitário da Regiçao da Campanha - <b>URCAMP</b>
         <br/>
         Desenvolvido por: <b>Felipe Lopes</b> &reg;
       </span>
-      <img src="./imagens/logo-urcamp.png"/>
-    </div>
-    <!-- RODAPÉ -->
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/LOGO_URCAMP.png"/>
+    </footer>
+              <!-- RODAPÉ -->
   </body>
-  <!-- CORPO SITE -->
+              
 </html>
