@@ -21,10 +21,10 @@ enviar.addEventListener('click', verificaNumero);
         
         function verificaNumero(){
         var regra = /^[0-9] +$/;
-        if (!matricula.value.match(regra)){
-                alert('Somente números!!');
-                limpar();
-            }
+        if (!matricula.value.match(regra)){       
+            alert('Somente números!!');
+            limpar();
+            } 
         }
 
         function limpar(){
@@ -33,7 +33,7 @@ enviar.addEventListener('click', verificaNumero);
         }
 
         function apagaCancelar(){
-            limpar.hidden = true;
+            cancelar.hidden = true;
         }
 
 
@@ -42,11 +42,11 @@ enviar.addEventListener('click', verificaNumero);
         }
 
         function trocaFundoRodape(){
-            document.querySelector('.rodape').style.backgroundColor = "#001111";
+            document.querySelector('.rodape').style.backgroundColor = "#112255";
         }
 
         function trocaLogotipo(){
-            document.querySelector('.logoSI').src="./imagens/enviar.png";
+            document.querySelector('.logoSI').src="./imagens/logo-si.png";
         }
 
 

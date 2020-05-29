@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <title>Avaliação</title>
     <link rel="stylesheet" type="text/css" href="./estilos/estilos.css"/>
-    <script type="text/javascript" src="js/script.js"></script>
+    
   </head>   
 
   <body>    
@@ -34,7 +34,7 @@
         <br/>
         <input type="button" class="apagacancelar" value="Apagar botão CANCELAR">
         <br/>
-        <input type="button" class="enviar" value="ENVIAR">
+        <input type="button" class="enviar" onkeypress="return somenteNumeros(event)" value="ENVIAR">
         <br/>
         <input type="button" class="cancelar" value="CANCELAR">
 
@@ -51,5 +51,5 @@
     </footer>
               <!-- RODAPÉ -->
   </body>
-              
+  <script type="text/javascript" src="js/script.js"></script>       
 </html>
