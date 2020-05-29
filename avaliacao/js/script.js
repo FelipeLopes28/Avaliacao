@@ -46,7 +46,7 @@ enviar.addEventListener('click', verificaNumero);
         }
 
         function trocaLogotipo(){
-            document.querySelector('.logo').src="./imagens/enviar.png";
+            document.querySelector('.logoSI').src="./imagens/enviar.png";
         }
 
 

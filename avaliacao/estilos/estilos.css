@@ -1,4 +1,62 @@
-@charset "UTF-9";
+@charset "UTF-8";
 h1{
   text-align: center;
+}
+span{
+  color: white;
+}
+
+section{
+  text-align: center;
+}
+
+/* BOTÕES */
+.enviar{
+  color: white;
+  background-color: blue;
+  border-radius: 50px;
+}
+.cancelar{
+  color: white;
+  background-color: tomato;
+  border-radius: 50px;
+}
+
+.senha, .matricula{
+  background-color: darkgray;
+}
+
+.trocaFundo, .trocaLogoSI, .trocaRodape, .apagacancelar{
+  background-color: darkgray;
+}
+
+/* IMAGENS */
+
+header.cabecalho{
+  border: 5px solid red;
+  position: relative;
+}
+
+header.cabecalho logoSI{
+  display: block;
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  /* margin: auto; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer.rodape{
+  border: 4px solid black;
+  background-color: black;
+}
+
+footer.rodape img{
+  width: 50%;
+  position: center;
+  left: 50px;
+  right: 50px;
+  margin: auto;
+  z-index: 1;
 }
