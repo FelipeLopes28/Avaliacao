@@ -13,31 +13,32 @@
       <header class="cabecalho">
          <img class="logoSI" src="https://scontent.fbgx1-1.fna.fbcdn.net/v/t1.0-9/35475613_1549208235208498_2127984281727795200_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=sqwR_wafDZ8AX9CvC02&_nc_ht=scontent.fbgx1-1.fna&oh=f03558463cd4d453fe6fbec4d0645f00&oe=5EF4B6E7"/>
       </header>
+      <br/>
               <!-- CABEÇALHO -->
       <section>
               <!-- CORPO SITE -->
-        <label>MATRÍCULA:</label>
+        <label class="MATRICULA">MATRÍCULA:</label>
         <br/>
-        <input type="text" name="matricula" class="matricula">
+        <input type="text" onkeypress="return onlynumber()" name="matricula" class="matricula">
         <br/>
-        <label>SENHA:</label>
+        <label class="SENHA">SENHA:</label>
         <br/>
         <input type="password" name="senha" class="senha">
-        <br/>
+        <br/> 
 
-        <br/>
         <input type="button" class="trocaFundo" value="Trocar cor do fundo">
-        <br/>
+        <br/>        
         <input type="button" class="trocaLogoSI" value="Trocar o logo do curso">
-        <br/>
+        <br/>        
         <input type="button" class="trocaRodape" value="Trocar a cor do fundo do rodapé">
-        <br/>
+        <br/>        
         <input type="button" class="apagacancelar" value="Apagar botão CANCELAR">
         <br/>
+
         <input type="button" class="enviar" onkeypress="return somenteNumeros(event)" value="ENVIAR">
         <br/>
         <input type="button" class="cancelar" value="CANCELAR">
-
+        
       </section>
               <!-- CORPO SITE -->
     </div>

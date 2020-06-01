@@ -1,62 +1,78 @@
 @charset "UTF-8";
-h1{
-  text-align: center;
-}
 span{
   color: white;
+}
+
+label.MATRICULA{
+  text-align: left;
+  margin-left: -80px;
+}
+
+label.SENHA{
+  text-align: left;
+  margin-left: -119px;
 }
 
 section{
   text-align: center;
 }
 
+footer{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CAIXA DE TEXTO */
+.senha, .matricula{
+  background-color: darkgray;
+} 
+
 /* BOTÕES */
 .enviar{
   color: white;
   background-color: blue;
   border-radius: 50px;
+  width: 200px;
+  margin-top: 10PX;
 }
 .cancelar{
   color: white;
   background-color: tomato;
   border-radius: 50px;
+  width: 200px;
 }
 
-.senha, .matricula{
-  background-color: darkgray;
-}
 
 .trocaFundo, .trocaLogoSI, .trocaRodape, .apagacancelar{
   background-color: darkgray;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  margin-top: 8px;
 }
 
 /* IMAGENS */
 
 header.cabecalho{
-  border: 5px solid red;
   position: relative;
 }
-
-header.cabecalho logoSI{
+img.logoSI{
   display: block;
-  /* position: absolute; */
-  /* top: 50%;
-  left: 50%; */
-  /* margin: auto; */
   margin-left: auto;
   margin-right: auto;
 }
 
 footer.rodape{
+  margin-top: 10px;
   border: 4px solid black;
   background-color: black;
 }
 
-footer.rodape img{
-  width: 50%;
-  position: center;
-  left: 50px;
-  right: 50px;
-  margin: auto;
-  z-index: 1;
+img.logoUrcamp{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
